@@ -6,7 +6,7 @@ function Topbar() {
   return (
     <>
       <Navbar bg="dark" data-bs-theme="dark">
-        <Container className="fluid">
+        <Container fluid="md">
           <Navbar.Brand href="#home">EpicBooks</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
